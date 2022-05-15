@@ -218,7 +218,7 @@ body {
     #slide4:checked ~ div .fake-radio .radio-btn:nth-child(4) {
     background: rgb(97, 97, 221);
     box-shadow: 0 0 0 0.1em rgb(233, 233, 233), 0 0 0 0.15em rgb(97, 97, 221);
-    animation: shadow-mini 200ms ease-out 0s;
+    animation: shadow 200ms ease-out 0s;
     }   
 }
 
@@ -236,7 +236,7 @@ body {
     #slide4:checked ~ div .fake-radio .radio-btn:nth-child(4) {
     background: rgb(97, 97, 221);
     box-shadow: 0 0 0 0.1em rgb(233, 233, 233), 0 0 0 0.15em rgb(97, 97, 221);
-    animation: shadow-mini 200ms ease-out 0s;
+    animation: shadow 200ms ease-out 0s;
     }   
 }
 
@@ -247,7 +247,7 @@ body {
     #slide4:checked ~ div .fake-radio .radio-btn:nth-child(4) {
     background: rgb(97, 97, 221);
     box-shadow: 0 0 0 0.08em rgb(233, 233, 233), 0 0 0 0.12em rgb(97, 97, 221);
-    animation: circleshadow 200ms ease-out 0s;
+    animation: shadow 200ms ease-out 0s;
     }
 }
 
@@ -265,7 +265,7 @@ body {
     #slide4:checked ~ div .fake-radio .radio-btn:nth-child(4) {
     background: rgb(97, 97, 221);
     box-shadow: 0 0 0 0.08em rgb(233, 233, 233), 0 0 0 0.12em rgb(97, 97, 221);
-    animation: circleshadow 200ms ease-out 0s;
+    animation: shadow 200ms ease-out 0s;
     }
 
 @media (max-width: 767px) {
@@ -294,7 +294,7 @@ body {
     #slide4:checked ~ div .fake-radio .radio-btn:nth-child(4) {
     background: rgb(97, 97, 221);
     box-shadow: 0 0 0 0.08em rgb(233, 233, 233), 0 0 0 0.12em rgb(97, 97, 221);
-    animation: circleshadow 200ms ease-out 0s;
+    animation: shadow 200ms ease-out 0s;
     }
 }
 
@@ -304,5 +304,14 @@ body {
     50% {box-shadow: 0 0 0 0.1em rgb(233, 233, 233), 0 0 0 0.15em rgb(97, 97, 221);}
     70% {box-shadow: 0 0 0 0.15em rgb(233, 233, 233), 0 0 0 0.2em rgb(97, 97, 221);}
     100% {box-shadow: 0 0 0 0.8em rgb(233, 233, 233), 0 0 0 0.12em rgb(97, 97, 221);}
+    }
+}
+
+@media (max-width: 767px) {
+    #slide1:checked ~ .labels .label:nth-child(1),
+    #slide2:checked ~ .labels .label:nth-child(2),
+    #slide3:checked ~ .labels .label:nth-child(3),
+    #slide4:checked ~ .labels .label:nth-child(4) {
+        font-size: 0.4rem;
     }
 }
